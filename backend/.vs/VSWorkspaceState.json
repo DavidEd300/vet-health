@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\vet-health.Api",
+    "\\vet-health.Application",
+    "\\vet-health.Domain",
+    "\\vet-health.Domain\\bin",
+    "\\vet-health.Domain\\entities",
+    "\\vet-health.Infrastructure",
+    "\\vet-health.Infrastructure\\Identity",
+    "\\vet-health.Infrastructure\\Persistence"
+  ],
+  "SelectedNode": "\\vet-health.Api",
+  "PreviewInSolutionExplorer": false
+}
