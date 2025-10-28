@@ -1,6 +1,6 @@
-# 🚀 VetHealth
+# 🐾 VetHealth
 
-> 🐾 A social platform that connects pet lovers, petshops, and veterinary clinics, think **Instagram for pets**, but smarter.  
+> A social platform that connects pet lovers, petshops, and veterinary clinics, think **Instagram for pets**, but smarter.  
 > Built collaboratively by a students team passionate about software, pets, and innovation.
 
 ---
