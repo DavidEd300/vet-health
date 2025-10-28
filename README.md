@@ -1,66 +1,69 @@
-# 🧠 Vet Health
+# 🚀 VetHealth
 
-**Vet Health** is a collaborative project to create a social platform for pet lovers.  
-Think *Instagram for pets* a place where owners can share their pets' best moments through photos, stories, and videos.  
+> 🐾 A social platform that connects pet lovers, petshops, and veterinary clinics — think **Instagram for pets**, but smarter.  
+> Built collaboratively by a student team passionate about software, pets, and innovation.
 
-## 📌 About
+---
 
-We aim to integrate pet shops and veterinary clinics into the platform, building a unique ecosystem that connects pet owners with trusted services..  
-This project is built incrementally, showcasing practical implementation:
+## 🧠 About the Project
 
-- ASP.NET Core Web API
-- React + Next.js
-- JavaScript / TypeScript
-- Entity Framework Core (Code First)
-- Organized folder structure: Models, Controllers, Data.
-- SQLite as a lightweight development database
-- Git flow, branching and pull requests
+**VetHealth** aims to create an ecosystem where pet owners can share their pets’ best moments — photos, stories, and videos — while connecting with **trusted petshops and veterinary services**.
 
-## 🚀 Stack
+This project is being developed incrementally to serve as both a **learning experience** and a **real-world application** integrating multiple technologies.
 
-| Layer         | Tech                                       |
-|---------------|--------------------------------------------|
-| Frontend      | Next.js + TypeScript                       |
-| Backend       | ASP.NET Core (Web API)                     |
-| ORM           | EF Core + Dapper                           |
-| Database      | SQLite                                     |
-| Version Ctrl. | Git + GitHub                               |
+---
 
-## 📂 Project Sctructure
+## 🧰 Tech Stack
+
+| Layer        | Technology Stack                         |
+|---------------|------------------------------------------|
+| **Frontend**  | React + Next.js (TypeScript)             |
+| **Backend**   | ASP.NET Core Web API                     |
+| **ORM**       | Entity Framework Core (Code First) + Dapper |
+| **Database**  | SQLite (development)                     |
+| **Mobile**    | .NET MAUI (in progress)                  |
+| **Versioning**| Git + GitHub                             |
+| **DevOps**    | GitHub Actions (CI/CD planned)           |
+
+---
+
+## 📁 Project Structure
 
 ```bash
 vethealth.sln
 │
 ├── vethealth.API/              
-│   ├── Controllers/             
-│   ├── Data/                    
-│   ├── Models/                  
-│   ├── Program.cs               
-│   ├── appsettings.json
-|   └── Migrations/         
-│                  
-├── vethealth.db                
-└── README.md                    
+│   ├── Controllers/         # Web API endpoints
+│   ├── Data/                # EF Core context and configuration
+│   ├── Models/              # Domain models/entities
+│   ├── Migrations/          # EF Core migrations
+│   ├── Program.cs           # App entry point
+│   ├── appsettings.json     # Configurations
+│   └── ...
+│
+├── vethealth.db             # Local SQLite database
+└── README.md
 ```
 
 ## ⚙️ Getting Started Locally
 
 ```bash
-# Clone the repo
-git clone https://github.com/carloslk18/vet-health.git
-
+git clone https://github.com/DavidEd300/vet-health.git
 cd vet-health/vethealth.API
+```
 
 # Restore dependencies
+```bash
 dotnet restore
-
-# Run the API
 dotnet run
 ```
 
 ## 🧪 Database Setup
 
 ```bash
-dotnet ef migrations add SomeMigrationName
+dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
+##📄 License
+
+This project is open source under the MIT License, feel free to contribute and build with us!
